@@ -1,6 +1,4 @@
-Here’s a professional **README.md** template you can use for your project. You can copy it directly and modify any details specific to your project.
 
-```markdown
 # Procura Assignment
 
 A simple **Node.js + Express + MongoDB** application for managing products.  
