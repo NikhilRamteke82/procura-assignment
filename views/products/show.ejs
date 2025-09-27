@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>
+        <%= product.productName %>
+    </title>
+</head>
+
+<body>
+    <h3>Product Details</h3>
+    <ul>
+        <li>
+
+            <%= product.productName %>
+
+        </li>
+        <li>
+            <strong>Code:</strong>
+            <%= product.productCode %>
+
+        </li>
+        <li>
+            <strong>Description:</strong>
+            <%= product.productDescription %>
+        </li>
+        <li>
+            <strong>Rate:</strong> $
+            <%= product.productRate %>
+
+        </li>
+    </ul>
+
+
+
+
+    <img src="<%= product.productImage %>" alt="<%= product.productName %>" width="200">
+</body>
+
+</html>
